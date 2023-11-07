@@ -1,0 +1,36 @@
+.texto {
+    font-family: Arial, sans-serif;
+    color: rgb(0, 247, 255);
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+    color: rgb(0, 247, 255);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px; /* Ajuste o tamanho das imagens conforme necessário */
+    height: 150px;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Efeito de zoom nas imagens ao passar o mouse */
+}
